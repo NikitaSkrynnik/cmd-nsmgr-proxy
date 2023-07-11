@@ -41,10 +41,10 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	main "github.com/networkservicemesh/cmd-nsmgr-proxy"
+	main "github.com/NikitaSkrynnik/cmd-nsmgr-proxy"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/spire"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/spire"
 )
 
 type NetworkServiceManagerProxySuite struct {

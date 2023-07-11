@@ -1,13 +1,13 @@
-module github.com/networkservicemesh/cmd-nsmgr-proxy
+module github.com/NikitaSkrynnik/cmd-nsmgr-proxy
 
 go 1.20
 
 require (
+	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230711085827-4db638c6c620
 	github.com/antonfisher/nested-logrus-formatter v1.3.1
 	github.com/edwarnicke/exechelper v1.0.3
 	github.com/edwarnicke/grpcfd v1.1.2
 	github.com/kelseyhightower/envconfig v1.4.0
-	github.com/networkservicemesh/sdk v0.5.1-0.20230710100721-01bb35f8c3d6
 	github.com/sirupsen/logrus v1.9.0
 	github.com/spiffe/go-spiffe/v2 v2.0.0
 	github.com/stretchr/testify v1.8.3
@@ -15,6 +15,7 @@ require (
 )
 
 require (
+	github.com/NikitaSkrynnik/api v1.0.1-0.20230711064101-51396a9946fc // indirect
 	github.com/OneOfOne/xxhash v1.2.8 // indirect
 	github.com/agnivade/levenshtein v1.1.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
@@ -32,7 +33,6 @@ require (
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.11.3 // indirect
-	github.com/networkservicemesh/api v1.9.1-0.20230627143611-9785eacf9687 // indirect
 	github.com/open-policy-agent/opa v0.44.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
