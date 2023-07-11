@@ -8,35 +8,6 @@ on:
   pull_request:
 jobs:
   yamllint:
-    uses: networkservicemesh/.github/.github/workflows/yamllint.yaml@main
+    uses: NikitaSkrynnik/.github/.github/workflows/yamllint.yaml@main
     with:
       config_file: "./.yamllint.yml"
-
-  shellcheck:
-    uses: networkservicemesh/.github/.github/workflows/shellcheck.yaml@main
-
-  golangci-lint:
-    uses: networkservicemesh/.github/.github/workflows/golangci-lint.yaml@main
-
-  excludeFmtErrorf:
-    uses: networkservicemesh/.github/.github/workflows/exclude-fmt-errorf.yaml@main
-
-  restrictNSMDeps:
-    uses: networkservicemesh/.github/.github/workflows/restrict-nsm-deps.yaml@main
-    with:
-      allowed_repositories: "api, sdk, sdk-k8s, sdk-kernel, sdk-sriov, sdk-vpp, govpp"
-
-  checkgomod:
-    uses: networkservicemesh/.github/.github/workflows/checkgomod.yaml@main
-
-  gogenerate:
-    uses: networkservicemesh/.github/.github/workflows/cmd-gogenerate.yaml@main
-
-  excludereplace:
-    uses: networkservicemesh/.github/.github/workflows/exclude-replace.yaml@main
-
-  docker-build-and-test:
-    if: github.repository != 'networkservicemesh/cmd-template'
-    uses: networkservicemesh/.github/.github/workflows/docker-build-and-test.yaml@main
-    secrets:
-      token: ${{ secrets.GITHUB_TOKEN }}
