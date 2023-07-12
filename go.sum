@@ -38,8 +38,8 @@ github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/NikitaSkrynnik/api v1.0.1-0.20230711064101-51396a9946fc h1:yMHA//UiNxW0WKekqIPvKBvIheAVmNiaMe0eMoxBBOg=
 github.com/NikitaSkrynnik/api v1.0.1-0.20230711064101-51396a9946fc/go.mod h1:6va68ed+AyiYRSNK/RQ91XEZdYHDfb6xVyBzjVhlGVs=
-github.com/NikitaSkrynnik/sdk v0.5.1-0.20230712060804-d605cde9ae50 h1:AsHbrecPhWczmLWoDcPVRVSpJRhiHE+yNBmCnxUGDYk=
-github.com/NikitaSkrynnik/sdk v0.5.1-0.20230712060804-d605cde9ae50/go.mod h1:zmGb/Hc6WN95sfc0vf5cz6IdbsaY/t76jtFlaMnIrB8=
+github.com/NikitaSkrynnik/sdk v0.5.1-0.20230712061225-4965854c3cbc h1:qKIkj7JOg+AOlGalWhLOuYSryum+jUkWQvGS7q9pUnQ=
+github.com/NikitaSkrynnik/sdk v0.5.1-0.20230712061225-4965854c3cbc/go.mod h1:zmGb/Hc6WN95sfc0vf5cz6IdbsaY/t76jtFlaMnIrB8=
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
 github.com/OneOfOne/xxhash v1.2.8 h1:31czK/TI9sNkxIKfaUfGlU47BAxQ0ztGgd9vPyqimf8=
 github.com/OneOfOne/xxhash v1.2.8/go.mod h1:eZbhyaAYD41SGSSsnmcpxVoRiQ/MPUTjUdIIOT9Um7Q=
