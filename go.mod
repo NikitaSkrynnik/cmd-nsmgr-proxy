@@ -3,7 +3,7 @@ module github.com/NikitaSkrynnik/cmd-nsmgr-proxy
 go 1.20
 
 require (
-	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230713072033-de4a8d4898a1
+	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230713073010-834fd38b8913
 	github.com/antonfisher/nested-logrus-formatter v1.3.1
 	github.com/edwarnicke/exechelper v1.0.3
 	github.com/edwarnicke/grpcfd v1.1.2
