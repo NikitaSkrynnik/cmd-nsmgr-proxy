@@ -3,7 +3,7 @@ module github.com/NikitaSkrynnik/cmd-nsmgr-proxy
 go 1.20
 
 require (
-	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230711085827-4db638c6c620
+	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230713091735-3c7850b9a59a
 	github.com/antonfisher/nested-logrus-formatter v1.3.1
 	github.com/edwarnicke/exechelper v1.0.3
 	github.com/edwarnicke/grpcfd v1.1.2
@@ -55,6 +55,7 @@ require (
 	go.opentelemetry.io/otel/sdk/metric v0.39.0 // indirect
 	go.opentelemetry.io/otel/trace v1.16.0 // indirect
 	go.opentelemetry.io/proto/otlp v0.19.0 // indirect
+	go.uber.org/atomic v1.7.0 // indirect
 	golang.org/x/crypto v0.10.0 // indirect
 	golang.org/x/net v0.11.0 // indirect
 	golang.org/x/sys v0.9.0 // indirect
